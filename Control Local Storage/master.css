@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma Arial;
+}
+.parent{
+    width:400px;
+    margin:20px auto;
+    background-color:#EEE;
+    padding:20px;
+}
+.parent input{
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 15px;   
+}
+.parent input:focus{
+    outline: none;
+}
+.parent .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.parent .buttons span{
+    background-color: #009988;
+    color:#FFF;
+    border-radius: 4px;
+    padding: 6px 3px;
+    cursor: pointer;
+    text-align: center;
+}
+.parent .results{
+    background-color: white;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px dashed #EEE;
+}
+.parent span span {
+    display: block;
+    font-weight: bold;
+    color: #009988;
+    font-weight: bold;
+}
